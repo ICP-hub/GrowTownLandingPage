@@ -12,7 +12,7 @@ const Header = () => {
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center">
-                    <img src="images/GrowTownLogo .png" alt="logo" className="h-10 sm:h-16 w-auto" />
+                   <a href='#heroPage'> <img src="images/GrowTownLogo .png" alt="logo" className="h-10 sm:h-16 w-auto" /> </a> 
                 </div>
 
                 {/* Desktop Menu */}
