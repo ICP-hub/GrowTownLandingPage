@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className='scroll-smooth' >
+    <div className=''  >
        <LandingPage/>
     </div>
   );
