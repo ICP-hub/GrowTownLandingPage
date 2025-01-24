@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "GrowTown_LandingPage_backend": {
+      "main": "src/GrowTown_LandingPage_backend/main.mo",
+      "type": "motoko"
+    },
+    "GrowTown_LandingPage_frontend": {
+      "dependencies": [
+        "GrowTown_LandingPage_backend"
+      ],
+      "source": [
+        "src/GrowTown_LandingPage_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "GrowTown_LandingPage_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

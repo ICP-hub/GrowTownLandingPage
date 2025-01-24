@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: "Iron Man";
+  src: url('https://fonts.cdnfonts.com/s/28969/IronMan.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/28969/IronMan.ttf') format('truetype'); /* Add formats if available */
+  font-weight: 400; /* Specify the weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IRON MAN";
+  src: url('./assets/Fonts/IRONMAN_.TTF') format('ttf');
+  font-weight: 400; /* Specify the weight */
+  font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Finger Paint';
+    src: url('./assets/Fonts/FingerPaint-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
