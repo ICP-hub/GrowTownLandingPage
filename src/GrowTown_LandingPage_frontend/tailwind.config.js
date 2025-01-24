@@ -11,6 +11,7 @@ export default {
         IRONMAN:['IRON MAN','serif'],
         FingerPaint:['Finger Paint','sans-serif']
       },
+      scrollBehavior: ['smooth'],
     },
   },
   plugins: [],

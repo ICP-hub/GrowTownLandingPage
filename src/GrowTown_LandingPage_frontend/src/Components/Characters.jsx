@@ -2,7 +2,7 @@ import React from 'react';
 
 const Characters = () => {
   return (
-    <div className="bg-[#50d2fe] relative flex justify-center items-center h-screen w-full overflow-hidden">
+    <div id='Characters'  className="bg-[#50d2fe] relative flex justify-center items-center h-screen w-full overflow-hidden">
   
      {/* Background Image */}
       <img src="images/bg00.png" alt="background" className="absolute w-full h-screen object-cover" />

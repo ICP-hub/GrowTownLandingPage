@@ -3,7 +3,7 @@ import React from 'react'
 const Gameplay = () => {
     return (
 
-        <div className="bg-[#50d2fe] min-h-screen relative  w-full ">
+        <div id='Gameplay' className="bg-[#50d2fe] min-h-screen relative  w-full ">
             <div className='relative h-full w-full '>
             {/* Background Image */}
             <div className='absolute w-full'>
@@ -33,7 +33,7 @@ const Gameplay = () => {
                 </div>
              </div>
                 {/* GAMEPLAY Text */}
-                <div className='w-full -top-10 p-10 lg:w-[50%] absolute lg:relative z-50 md:top-10 xl:-top-8 '
+                <div className='w-full -top-10 p-10 lg:w-[50%] absolute lg:relative z-50 md:top-10 2xl:-top-8 '
                 data-aos='fade-up' data-aos-delay='500'
                 >
                 <h1 className=" text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 lg:mb-8 text-center lg:text-start text-[#FFF3C5] font-bold lg:mr-28">
@@ -63,7 +63,7 @@ const Gameplay = () => {
               
             </div>
 
-            <div className='absolute z-10 right-0 -bottom-36 xl:top-28'
+            <div className='absolute z-10 right-0 -bottom-56 2xl:top-28'
              data-aos='fade-up' 
              >
             <img src='images/mushroom.png' className=' w-36 lg:w-auto lg:h-auto'/>

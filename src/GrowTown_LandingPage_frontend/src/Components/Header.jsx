@@ -18,9 +18,9 @@ const Header = () => {
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex  text-lg font-bold text-[#4B2519] space-x-6">
                     {navText.map((text, index) => (
-                        <li key={index} className="hover:text-gray-400 cursor-pointer">
+                        <a href={`#${text}`}> <li key={index} className="hover:text-[#FFF3C5] cursor-pointer"> 
                             {text}
-                        </li>
+                        </li></a>
                     ))}
                 </ul>
 
@@ -63,12 +63,13 @@ const Header = () => {
                <div className="md:hidden  text-black font-bold mt-4">
                     <ul className="flex flex-col  space-y-2">
                         {navText.map((text, index) => (
-                            <li
+                          <a href={`#${text}`}>   <li
                                 key={index}
-                                className="hover:text-gray-400 cursor-pointer text-center py-2 border-b border-gray-700"
+                                className="hover:text-[#FFF3C5] cursor-pointer text-center py-2 border-b border-gray-700"
                             >
                                 {text}
                             </li>
+                            </a>
                         ))}
                     </ul>
                     <div className="flex justify-center mt-4 space-x-4">

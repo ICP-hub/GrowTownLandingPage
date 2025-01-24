@@ -81,7 +81,7 @@ const Gameplay2 = () => {
                 <img src='images/pumpkin02.svg ' className='absolute -mt-40 right-10 lg:-mt-[10%] lg:right-20' />
                 
                     
-                <div className='  lg:-top-32  relative flex justify-center text-[#FFF3C5]'>
+                <div id='Subscribe' className=' lg:-top-32  relative flex justify-center text-[#FFF3C5]'>
                     <div className=' w-[80%] lg:w-[40%]'>
                         <h1 className=' text-3xl md:text-4xl lg:text-5xl xl:text-6xl px-10 text-bold text-center'> Subscribe to Receive our newsletter to follow the news</h1>
 
