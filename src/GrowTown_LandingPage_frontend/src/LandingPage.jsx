@@ -1,12 +1,12 @@
 import * as React from "react"
-import Header from "./Components/Header";
-import HeroComp from "./Components/HeroComp";
-import { VideoComp } from "./Components/VideoComp";
-import About from "./Components/About";
-import Characters from "./Components/Characters";
-import Gameplay from "./Components/Gameplay1";
-import Gameplay2 from "./Components/Gameplay2";
-import Footer from "./Components/Footer";
+import Header from "./components/Header";
+import HeroComp from "./components/HeroComp";
+import { VideoComp } from "./components/VideoComp";
+import About from "./components/About";
+import Characters from "./components/Characters";
+import Gameplay from "./components/Gameplay1";
+import Gameplay2 from "./components/Gameplay2";
+import Footer from "./components/Footer";
 const LandingPage = ()=>{
 
     return(
