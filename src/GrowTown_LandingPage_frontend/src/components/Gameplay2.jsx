@@ -6,7 +6,8 @@ const Gameplay2 = () => {
         <div className="bg-[#50d2fe]   w-full overflow-hidden  ">
 
             <div className=' relative w-full    '>
-                <img src="images/Generative Fill 2.png" alt="background" className="  w-full   object-cover" />
+                <img src="images/Generative Fill 2.png" alt="background" className="  w-full   object-cover"  draggable='false'
+              lazy='loading'/>
 
 
                 <div>
@@ -16,21 +17,27 @@ const Gameplay2 = () => {
                         data-aos='fade-right'
                         >
                     <img src='images/farm barn  3.png' className=' w-[180px] sm:w-[250px] md:w-[300px] xl:w-auto xl-h-auto '
-                      
+                       draggable='false'
+              lazy='loading'
                     />
 
                     {/*vegetable boxes*/}
                     <div className='flex relative left-20 sm:left-44 xl:left-64  -top-10'>
-                        <img src='images/vegtable boxes 1.png' className='absolute z-10 h-12 sm:h-16 xl:h-auto xl:w-auto'/>
-                        <img src='images/vegtable boxes 4.png' className='absolute -top-4 sm:-top-8 left-8 h-12 sm:h-16 xl:h-auto xl:w-auto'/>
-                        <img src='images/vegtable boxes 3.png' className='absolute z-10 left-16 top-5 h-12 sm:h-16 xl:h-auto xl:w-auto'/>
+                        <img src='images/vegtable boxes 1.png' className='absolute z-10 h-12 sm:h-16 xl:h-auto xl:w-auto'  draggable='false'
+              lazy='loading'/>
+                        <img src='images/vegtable boxes 4.png' className='absolute -top-4 sm:-top-8 left-8 h-12 sm:h-16 xl:h-auto xl:w-auto'  draggable='false'
+              lazy='loading'/>
+                        <img src='images/vegtable boxes 3.png' className='absolute z-10 left-16 top-5 h-12 sm:h-16 xl:h-auto xl:w-auto' draggable='false'
+              lazy='loading'/>
 
                     </div>
 
                     {/*  Fireflyfence */}
                     <div className='flex -ml-2 h-14 sm:h-20 md:h-24 xl:h-auto xl:w-auto'>
-                        <img src='images/Fireflyfencecartoon.png'/>
-                        <img src='images/Fireflyfencecartoon.png' className='-ml-5'/>
+                        <img src='images/Fireflyfencecartoon.png'  draggable='false'
+              lazy='loading'/>
+                        <img src='images/Fireflyfencecartoon.png' className='-ml-5'  draggable='false'
+              lazy='loading'/>
                     </div>
                     </div>
 
@@ -47,11 +54,16 @@ const Gameplay2 = () => {
                         <div>
                             <img src='images/windMill.png' className='w-[200px] sm:w-[250px] md:w-[480px] xl:w-auto xl-h-auto '
                                 data-aos='fade-left'
+                                 draggable='false'
+              lazy='loading'
                             />
                             <div className='flex absolute   md:right-12 xl:right-36 -mt-24 w-24 lg:w-auto lg:h-auto lg:justify-end '>
-                                <img src='images/rocks 6.png' className='mb-24 w-16 sm:w-auto ' />
-                                <img src='images/rocks 5.png' className='mt-16 w-16 sm:w-auto ' />
-                                <img src='images/rocks 7.png' className='mt-16 w-16 sm:w-auto ' />
+                                <img src='images/rocks 6.png' className='mb-24 w-16 sm:w-auto '  draggable='false'
+              lazy='loading'/>
+                                <img src='images/rocks 5.png' className='mt-16 w-16 sm:w-auto '  draggable='false'
+              lazy='loading'/>
+                                <img src='images/rocks 7.png' className='mt-16 w-16 sm:w-auto ' draggable='false'
+              lazy='loading' />
                             </div>
                         </div>
 
@@ -83,16 +95,16 @@ const Gameplay2 = () => {
 
                 <div id='Subscribe' className=' z-10 -bottom-32 lg:-top-32  relative flex justify-center text-[#FFF3C5]'>
                     <div className=' w-[80%] md:w-[50%] lg:w-[40%]'>
-                        <h1 className=' text-3xl md:text-4xl lg:text-5xl xl:text-6xl px-10 text-bold text-center'> Subscribe to Receive our newsletter to follow the news</h1>
+                        <h1 className=' text-xl md:text-xl lg:text-2xl xl:text-3xl px-10 text-bold text-center custom-ironman '> Subscribe to Receive our newsletter to follow the news</h1>
 
                         <div className="flex border backdrop-blur-lg  border-[#FFF3C5]  justify-between h-20 rounded-lg mt-10 shadow-lg">
                             <input
                                 type="text"
                                 placeholder="Enter Email Address"
-                                className="bg-transparent w-full h-full px-4 text-white placeholder-white outline-none rounded-l-lg"
+                                className="bg-transparent w-full h-full px-4 text-white placeholder-white outline-none rounded-l-lg custom-fingerpaint-small placeholder-text-md"
                             />
                             <div className=" h-full md:w-[35%] lg:w-[40%] relative rounded-r-lg flex items-center justify-center cursor-pointer hover:shadow-md hover:scale-95 transition duration-300">
-                                <h1 className="text-white text-lg lg:text-xl -mt-2 font-bold absolute my-auto"> SUBSCRIBE </h1>
+                                <h1 className="text-white text-md lg:text-md -mt-2 font-bold absolute my-auto custom-ironman"> SUBSCRIBE </h1>
                                 <img src='images/ButtonCustom.png' className='h-full my-auto w-full mt-[1px]   object-cover' />
 
                             </div>

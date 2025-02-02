@@ -2,7 +2,14 @@ import React, { useState } from 'react';
 
 const Header = () => {
     const navText = ['Characters', 'About', 'Gameplay', 'Subscribe'];
-    const socialImg = ['prime_twitter.svg', 'ic_baseline-discord.svg', 'lineicons_telegram.svg'];
+    const socialLinks = [
+        { img: 'prime_twitter.svg', link: 'https://x.com/Grow_Town' },
+        { img: 'ic_baseline-discord.svg', link: 'https://discord.gg/FXaaZr7T' },
+        { img: 'lineicons_telegram.svg', link: 'https://t.me/growtownchat' }
+    ];
+    
+   
+    
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,15 +20,16 @@ const Header = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <a href='#heroPage'>
-                            <img src="images/GrowTownLogo .png" alt="logo" className="h-10 sm:h-16 w-auto" />
+                            <img src="images/GrowTownLogo .png" alt="logo" className="h-10 sm:h-16 w-auto"  draggable='false'
+              lazy='loading'/>
                         </a>
                     </div>
 
                     {/* Desktop Menu */}
-                    <ul className="hidden md:flex text-lg font-bold text-[#4B2519] space-x-6">
+                    <ul className="hidden md:flex text-xs text-[#4B2519] space-x-6">
                         {navText.map((text, index) => (
                             <a href={`#${text}`} key={index}>
-                                <li className="hover:text-[#FFF3C5] cursor-pointer">
+                                <li className="hover:text-[#FFF3C5] cursor-pointer custom-fingerpaint-small">
                                     {text}
                                 </li>
                             </a>
@@ -30,13 +38,18 @@ const Header = () => {
 
                     {/* Social Links */}
                     <div className="hidden md:flex space-x-5">
-                        {socialImg.map((img, index) => (
+                        {socialLinks.map((item, index) => (
+            <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+
                             <img
                                 key={index}
-                                src={`images/${img}`}
+                                src={`images/${item.img}`}
                                 alt="social icon"
                                 className="h-7 w-7 hover:opacity-80 cursor-pointer"
+                                 draggable='false'
+              lazy='loading'
                             />
+                            </a>
                         ))}
                     </div>
 
@@ -72,7 +85,7 @@ const Header = () => {
                         {navText.map((text, index) => (
                             <a href={`#${text}`} key={index}>
                                 <li
-                                    className="md:text-xl hover:text-[#FFF3C5] cursor-pointer text-center py-2 border-b border-gray-700"
+                                    className="md:text-xl hover:text-[#FFF3C5] cursor-pointer text-center py-2 border-b border-gray-700 custom-fingerpaint"
                                 >
                                     {text}
                                 </li>
@@ -80,15 +93,18 @@ const Header = () => {
                         ))}
                     </ul>
                     <div className="flex justify-center mt-4 space-x-4">
-                        {socialImg.map((img, index) => (
-                            <img
-                                key={index}
-                                src={`images/${img}`}
-                                alt="social icon"
-                                className="h-6 w-6 hover:opacity-80 cursor-pointer"
-                            />
-                        ))}
-                    </div>
+        {socialLinks.map((item, index) => (
+            <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                <img
+                    src={`images/${item.img}`}
+                    alt="social icon"
+                    className="h-6 w-6 hover:opacity-80 cursor-pointer"
+                     draggable='false'
+              lazy='loading'
+                />
+            </a>
+        ))}
+    </div>
                 </div>
             </nav>
         </div>

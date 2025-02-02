@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { GrowTown_LandingPage_backend } from 'declarations/GrowTown_LandingPage_backend';
 import LandingPage from './LandingPage';
 import './index.css'
 

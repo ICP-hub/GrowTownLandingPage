@@ -30,6 +30,8 @@ const HeroComp = () => {
               src='images/cloud02-l.png'
               alt='leftCloud'
               className='w-full'
+               draggable='false'
+              lazy='loading'
             />
           </div>
 
@@ -41,29 +43,39 @@ const HeroComp = () => {
 
             {/* Ship */}
             <img src='images/sheep.png' alt='sheep' data-aos='fade-up' data-aos-delay='1000'
-             className='absolute w-24 sm:w-auto z-30 left-0 sm:left-[30%]' />
+             className='absolute w-24 sm:w-auto z-30 left-0 sm:left-[30%]' 
+             draggable='false'
+             lazy='loading'/>
             <img
               src='images/land01.png'
               alt='land'
               className=' w-72 sm:w-auto  relative top-10 z-20'
+               draggable='false'
+              lazy='loading'
             />
             <div className='hidden sm:block'>
             <img
               src='images/cloud02-l.png'
               alt='leftCloud'
               className='absolute h-[100%] z-20 top-[50%] left-[0%]'
+               draggable='false'
+              lazy='loading'
             />
 
             <img
               src='images/cloud03-l.png'
               alt='leftCloud'
               className='absolute h-[100%] z-20 top-[50%] left-[20%]'
+               draggable='false'
+              lazy='loading'
             />
 
             <img
               src='images/cloud02-l.png'
               alt='leftCloud'
               className='absolute z-20 top-[60%] left-[20%]'
+               draggable='false'
+              lazy='loading'
             />
             </div>
           </div>
@@ -76,25 +88,31 @@ const HeroComp = () => {
 
         >
           <img src='/images/LogoGif (1).gif' alt='logo' data-aos='zoom-in' 
-          className=' min-w-96 sm:w-auto' />
+          className=' min-w-96 sm:w-auto' 
+          draggable='false'
+          lazy='loading'/>
 
           <div data-aos='fade-down' className=' mt-[50%]  sm:mt-0' data-aos-delay='1000'>
             <div className=' mx-auto w-[60%]  sm:w-auto  mb-10 -mt-2 '>
-            {/* <h1 className='  text-4xl lg:text-4xl xl:text-5xl mr-6 text-center text-[#4B2519] font-IRONMAN font-bold'
+            <h1 className='  text-4xl lg:text-4xl xl:text-5xl mr-6 text-center text-[#4B2519] custom-ironman font-bold'
            >COMING SOON!
-           </h1> */}
+           </h1>
             </div>
            
             <div className='flex mx-auto w-[60%] sm:w-auto flex-col sm:flex-row justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
               <div className='p-1 w-[90%] sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
-              <img src='images/appleIcon.svg' className='my-auto mx-1' />
+              <img src='images/appleIcon.svg' className='my-auto mx-1'
+               draggable='false'
+               lazy='loading' />
                 <div className='mx-1 ml-2'>
                   <h2 className=' text-sm '>Available on</h2>
                   <h1 className=' text-lg'>App Store</h1>
                 </div>
               </div>
               <div className=' bg-black w-[90%] sm:w-auto flex  items-center p-1 px-2 justify-center rounded-lg'>
-                <img src='images/andIcon.svg' className='my-auto mx-1' />
+                <img src='images/andIcon.svg' className='my-auto mx-1' 
+                 draggable='false'
+                 lazy='loading'/>
                 <div className='mx-1 ml-2'>
                   <h2 className=' text-sm'>Available on</h2>
                   <h1 className=' text-lg'>Play Store</h1>
@@ -115,6 +133,8 @@ const HeroComp = () => {
               src='/images/cloud04-r.png'
               alt='rightCloud'
               className=' '
+               draggable='false'
+              lazy='loading'
             />
           </div>
 
@@ -134,6 +154,8 @@ const HeroComp = () => {
                   transform: 'scaleX(-1)',
                 }}
                 className='w-64 sm:w-auto'
+                 draggable='false'
+              lazy='loading'
               />
             </div>
 
@@ -142,12 +164,15 @@ const HeroComp = () => {
               src='/images/land01 (1).png'
               alt='land'
               className='w-72 sm:w-auto relative z-20'
+               draggable='false'
+              lazy='loading'
             />
             <img
               src='/images/cloud06-r.png'
               alt='rightCloud'
               className='absolute hidden sm:block z-20 top-[70%] lg:top-[40%]'
-
+ draggable='false'
+              lazy='loading'
             />
           </div>
         </div>
