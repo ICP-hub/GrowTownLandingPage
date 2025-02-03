@@ -7,7 +7,7 @@ const Gameplay2 = () => {
 
             <div className=' relative w-full    '>
                 <img src="images/Generative Fill 2.png" alt="background" className="  w-full   object-cover"  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
 
 
                 <div>
@@ -18,26 +18,26 @@ const Gameplay2 = () => {
                         >
                     <img src='images/farm barn  3.png' className=' w-[180px] sm:w-[250px] md:w-[300px] xl:w-auto xl-h-auto '
                        draggable='false'
-              lazy='loading'
+              loading="lazy"
                     />
 
                     {/*vegetable boxes*/}
                     <div className='flex relative left-20 sm:left-44 xl:left-64  -top-10'>
                         <img src='images/vegtable boxes 1.png' className='absolute z-10 h-12 sm:h-16 xl:h-auto xl:w-auto'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                         <img src='images/vegtable boxes 4.png' className='absolute -top-4 sm:-top-8 left-8 h-12 sm:h-16 xl:h-auto xl:w-auto'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                         <img src='images/vegtable boxes 3.png' className='absolute z-10 left-16 top-5 h-12 sm:h-16 xl:h-auto xl:w-auto' draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
 
                     </div>
 
                     {/*  Fireflyfence */}
                     <div className='flex -ml-2 h-14 sm:h-20 md:h-24 xl:h-auto xl:w-auto'>
                         <img src='images/Fireflyfencecartoon.png'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                         <img src='images/Fireflyfencecartoon.png' className='-ml-5'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                     </div>
                     </div>
 
@@ -55,15 +55,15 @@ const Gameplay2 = () => {
                             <img src='images/windMill.png' className='w-[200px] sm:w-[250px] md:w-[480px] xl:w-auto xl-h-auto '
                                 data-aos='fade-left'
                                  draggable='false'
-              lazy='loading'
+              loading="lazy"
                             />
                             <div className='flex absolute   md:right-12 xl:right-36 -mt-24 w-24 lg:w-auto lg:h-auto lg:justify-end '>
                                 <img src='images/rocks 6.png' className='mb-24 w-16 sm:w-auto '  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                                 <img src='images/rocks 5.png' className='mt-16 w-16 sm:w-auto '  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                                 <img src='images/rocks 7.png' className='mt-16 w-16 sm:w-auto ' draggable='false'
-              lazy='loading' />
+              loading="lazy" />
                             </div>
                         </div>
 

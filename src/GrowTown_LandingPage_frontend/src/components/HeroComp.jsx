@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaApple } from "react-icons/fa";
-import { FaGooglePlay } from "react-icons/fa";
 
 const HeroComp = () => {
   // Initialize AOS when the component mounts
@@ -31,7 +29,7 @@ const HeroComp = () => {
               alt='leftCloud'
               className='w-full'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
           </div>
 
@@ -45,13 +43,13 @@ const HeroComp = () => {
             <img src='images/sheep.png' alt='sheep' data-aos='fade-up' data-aos-delay='1000'
              className='absolute w-24 sm:w-auto z-30 left-0 sm:left-[30%]' 
              draggable='false'
-             lazy='loading'/>
+             loading="lazy"/>
             <img
               src='images/land01.png'
               alt='land'
               className=' w-72 sm:w-auto  relative top-10 z-20'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
             <div className='hidden sm:block'>
             <img
@@ -59,7 +57,7 @@ const HeroComp = () => {
               alt='leftCloud'
               className='absolute h-[100%] z-20 top-[50%] left-[0%]'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
 
             <img
@@ -67,7 +65,7 @@ const HeroComp = () => {
               alt='leftCloud'
               className='absolute h-[100%] z-20 top-[50%] left-[20%]'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
 
             <img
@@ -75,7 +73,7 @@ const HeroComp = () => {
               alt='leftCloud'
               className='absolute z-20 top-[60%] left-[20%]'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
             </div>
           </div>
@@ -90,7 +88,7 @@ const HeroComp = () => {
           <img src='/images/LogoGif (1).gif' alt='logo' data-aos='zoom-in' 
           className=' min-w-96 sm:w-auto' 
           draggable='false'
-          lazy='loading'/>
+          loading="lazy"/>
 
           <div data-aos='fade-down' className=' mt-[50%]  sm:mt-0' data-aos-delay='1000'>
             <div className=' mx-auto w-[60%]  sm:w-auto  mb-10 -mt-2 '>
@@ -103,7 +101,7 @@ const HeroComp = () => {
               <div className='ml-2 sm:ml-0 p-1 w-[80%] sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
               <img src='images/appleIcon.svg' className='my-auto mx-1'
                draggable='false'
-               lazy='loading' />
+               loading="lazy" />
                 <div className='mx-1 ml-2'>
                   <h2 className=' text-sm '>Available on</h2>
                   <h1 className=' text-lg'>App Store</h1>
@@ -112,7 +110,7 @@ const HeroComp = () => {
               <div className=' ml-2 sm:ml-0 bg-black w-[80%] sm:w-auto flex  items-center p-1 px-2 justify-center rounded-lg'>
                 <img src='images/andIcon.svg' className='my-auto mx-1' 
                  draggable='false'
-                 lazy='loading'/>
+                 loading="lazy"/>
                 <div className='mx-1 ml-2'>
                   <h2 className=' text-sm'>Available on</h2>
                   <h1 className=' text-lg'>Play Store</h1>
@@ -134,7 +132,7 @@ const HeroComp = () => {
               alt='rightCloud'
               className=' '
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
           </div>
 
@@ -155,7 +153,7 @@ const HeroComp = () => {
                 }}
                 className='w-64 sm:w-auto'
                  draggable='false'
-              lazy='loading'
+              loading="lazy"
               />
             </div>
 
@@ -165,14 +163,14 @@ const HeroComp = () => {
               alt='land'
               className='w-72 sm:w-auto relative z-20'
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
             <img
               src='/images/cloud06-r.png'
               alt='rightCloud'
               className='absolute hidden sm:block z-20 top-[70%] lg:top-[40%]'
  draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
           </div>
         </div>

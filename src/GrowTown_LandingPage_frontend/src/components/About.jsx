@@ -14,7 +14,7 @@ const About = () => {
               alt='leftCloud'
               className=''
               draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
       </div>
 
@@ -27,7 +27,7 @@ const About = () => {
               alt='rightCloud'
               className=' '
                draggable='false'
-              lazy='loading'
+              loading="lazy"
             />
       </div>
      
@@ -45,7 +45,7 @@ const About = () => {
         alt='Cloud background at the bottom'
         className='absolute -bottom-[18%] sm:-bottom-[25%] lg:-bottom-[45%] z-10  w-full object-cover'
          draggable='false'
-              lazy='loading'
+              loading="lazy"
       />
     </div>
   )

@@ -9,20 +9,20 @@ const Gameplay = () => {
                 <div className='absolute w-full'>
                     <img src="images/bg01.png" alt="background" className="  w-full  object-cover" 
                      draggable='false'
-                     lazy='loading'/>
+                     loading="lazy"/>
                     <img src="images/bg02.png" alt="background" className=" w-full h-screen  object-cover" 
                      draggable='false'
-                     lazy='loading'/>
+                     loading="lazy"/>
                 </div>
 
                 {/* well and rocks*/}
                 <div className=' absolute right-0 -top-20 sm:-top-10' >
                     <img src='images/well.png' alt='well' className=' w-[150px]  lg:w-[220px] ' draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                     <img src='images/rocks 2.png' alt='rocks' className='absolute  w-20 sm:w-auto right-0 lg:right-5 top-[320px] lg:top-[450px]'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                     <img src='images/rocks 3.png' alt='rocks' className='absolute w-20 sm:w-auto bottom-0 right-28 lg:right-36 top-[250px] lg:top-[370px]'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                 </div>
 
               
@@ -37,17 +37,17 @@ const Gameplay = () => {
                                     transform: 'scaleX(-1)',
                                   }}
                                    draggable='false'
-              lazy='loading'
+              loading="lazy"
                         />
                         <img src='images/henGif.gif ' className='-ml-14 mt-6 sm:mt-10  w-20 h-20 sm:w-24 sm:h-24'      draggable='false'
-              lazy='loading'       />
+              loading="lazy"       />
                     </div> 
                    {/* vegetable boxes*/}
                    <div className='absolute flex right-2 md:right-[16%] top-10'>
                    <img src='images/vegtable boxes 4.png' className='w-14 sm:w-20 md:w-auto'  draggable='false'
-              lazy='loading'/> 
+              loading="lazy"/> 
                     <img src='images/vegtable boxes 2.png' className='-ml-6 w-16 sm:w-24 md:w-auto'  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                         
                    </div>
                         </div>
@@ -71,10 +71,10 @@ const Gameplay = () => {
                      
                     >
                         <img src='images/tomatoPlant.png' className='h-36 md:h-56  ' draggable='false'
-              lazy='loading' />
+              loading="lazy" />
 
                         <img src='images/Pose3 1.png' className='object-cover relative  z-20  h-36 md:h-72 -mt-4 -ml-16 xl:-ml-24 '  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
 
                     </div>
 

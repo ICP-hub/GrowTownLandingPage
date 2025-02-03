@@ -13,7 +13,7 @@ const Footer = () => {
 
                 <img src="images/GrowTownLogo .png" alt="logo" className=" w-20 sm:w-auto absolute left-[50%] transform -translate-x-1/2 my-auto" 
                  draggable='false'
-                 lazy='loading'/>
+                 loading="lazy"/>
                 
                      {/* Social Links */}
                <div className="flex justify-end items-center gap-5  h-12 sm:h-16 mx-auto w-auto lg:mr-4 ">
@@ -24,7 +24,7 @@ const Footer = () => {
                     alt="social icon"
                     className="h-6 w-6 hover:opacity-80 cursor-pointer"
                      draggable='false'
-              lazy='loading'
+              loading="lazy"
                 />
             </a>
         ))}

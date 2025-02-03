@@ -21,7 +21,7 @@ const Header = () => {
                     <div className="flex items-center">
                         <a href='#heroPage'>
                             <img src="images/GrowTownLogo .png" alt="logo" className="h-10 sm:h-16 w-auto"  draggable='false'
-              lazy='loading'/>
+              loading="lazy"/>
                         </a>
                     </div>
 
@@ -47,7 +47,7 @@ const Header = () => {
                                 alt="social icon"
                                 className="h-7 w-7 hover:opacity-80 cursor-pointer"
                                  draggable='false'
-              lazy='loading'
+              loading="lazy"
                             />
                             </a>
                         ))}
@@ -100,7 +100,7 @@ const Header = () => {
                     alt="social icon"
                     className="h-6 w-6 hover:opacity-80 cursor-pointer"
                      draggable='false'
-              lazy='loading'
+              loading="lazy"
                 />
             </a>
         ))}
