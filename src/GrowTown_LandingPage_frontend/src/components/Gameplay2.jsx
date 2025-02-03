@@ -104,7 +104,7 @@ const Gameplay2 = () => {
                                 className="bg-transparent w-full h-full px-4 text-white placeholder-white outline-none rounded-l-lg custom-fingerpaint-small placeholder-text-md"
                             />
                             <div className=" h-full md:w-[35%] lg:w-[40%] relative rounded-r-lg flex items-center justify-center cursor-pointer hover:shadow-md hover:scale-95 transition duration-300">
-                                <h1 className="text-white text-md lg:text-md -mt-2 font-bold absolute my-auto custom-ironman"> SUBSCRIBE </h1>
+                                <h1 className="text-white text-xs sm:text-sm lg:text-md -mt-2 font-bold absolute my-auto custom-ironman"> SUBSCRIBE </h1>
                                 <img src='images/ButtonCustom.png' className='h-full my-auto w-full mt-[1px]   object-cover' />
 
                             </div>

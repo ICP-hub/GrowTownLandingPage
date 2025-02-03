@@ -100,7 +100,7 @@ const HeroComp = () => {
             </div>
            
             <div className='flex mx-auto w-[60%] sm:w-auto flex-col sm:flex-row justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
-              <div className='p-1 w-[90%] sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
+              <div className='ml-2 sm:ml-0 p-1 w-[80%] sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
               <img src='images/appleIcon.svg' className='my-auto mx-1'
                draggable='false'
                lazy='loading' />
@@ -109,7 +109,7 @@ const HeroComp = () => {
                   <h1 className=' text-lg'>App Store</h1>
                 </div>
               </div>
-              <div className=' bg-black w-[90%] sm:w-auto flex  items-center p-1 px-2 justify-center rounded-lg'>
+              <div className=' ml-2 sm:ml-0 bg-black w-[80%] sm:w-auto flex  items-center p-1 px-2 justify-center rounded-lg'>
                 <img src='images/andIcon.svg' className='my-auto mx-1' 
                  draggable='false'
                  lazy='loading'/>

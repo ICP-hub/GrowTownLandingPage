@@ -29,9 +29,11 @@ export const VideoComp = () => {
   }, [inView]);
 
   return (
-    <div ref={ref} className="bg-[#00A6C0] flex justify-center items-center h-screen w-full overflow-hidden">
+    <div ref={ref} className="bg-[#00A6C0] flex justify-center items-center h-screen w-full overflow-hidden -mt-1">
       {/* Video Frame Wrapper */}
-      <div className="relative flex justify-center items-center w-[90%] md:w-[60%] lg:w-[65%] aspect-video">
+      <div className="relative flex justify-center items-center w-[90%] md:w-[60%] lg:w-[65%] aspect-video"
+      data-aos='zoom-in'
+      >
         
         {/* Wooden Frame Image with AOS Animation */}
         <img
