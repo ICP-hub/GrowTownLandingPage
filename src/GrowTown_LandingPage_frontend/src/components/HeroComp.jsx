@@ -14,7 +14,7 @@ const HeroComp = () => {
 
 
   return (
-    <div id='heroPage' className='bg-[#00A6C0] h-screen w-screen overflow-hidden'>
+    <div id='heroPage' className='bg-[#00A6C0] h-screen w-full overflow-hidden'>
       {/* Hero Content Wrapper */}
       
       <div className='flex justify-between items-center h-full'>
@@ -90,9 +90,9 @@ const HeroComp = () => {
           draggable='false'
           loading="lazy"/>
 
-          <div data-aos='fade-down' className=' mt-[50%]  sm:mt-0' data-aos-delay='1000'>
+          <div data-aos='fade-down' className=' mt-[40%]  sm:mt-0' data-aos-delay='1000'>
             <div className=' mx-auto w-[60%]  sm:w-auto  mb-10 -mt-2 '>
-            <h1 className='  text-4xl lg:text-4xl xl:text-5xl mr-6 text-center text-[#4B2519] custom-ironman font-bold'
+            <h1 className='  text-2xl lg:text-4xl xl:text-5xl mr-6 text-center text-[#4B2519] custom-ironman font-bold'
            >COMING SOON!
            </h1>
             </div>

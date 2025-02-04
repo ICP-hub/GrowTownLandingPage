@@ -9,7 +9,7 @@ const About = () => {
             
             
             <img
-            data-aos='fade-left'
+            data-aos='fade-right'
               src='images/cloud02-l.png'
               alt='leftCloud'
               className=''
@@ -22,7 +22,7 @@ const About = () => {
       <div className='absolute z-10 -right-0 top-0 overflow-hidden '>
      
             <img
-            data-aos='fade-right'
+            data-aos='fade-left'
               src='/images/cloud04-r.png'
               alt='rightCloud'
               className=' '

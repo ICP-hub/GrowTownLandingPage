@@ -16,7 +16,7 @@ const Footer = () => {
                  loading="lazy"/>
                 
                      {/* Social Links */}
-               <div className="flex justify-end items-center gap-5  h-12 sm:h-16 mx-auto w-auto lg:mr-4 ">
+               <div className="flex justify-end items-center gap-2 sm:gap-5  h-12 sm:h-16 mx-auto w-auto lg:mr-4 ">
                {socialLinks.map((item, index) => (
             <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
                 <img

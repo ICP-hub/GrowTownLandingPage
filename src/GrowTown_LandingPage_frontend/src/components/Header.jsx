@@ -14,8 +14,9 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className='w-full top-0 bg-[#D9D9D93D] z-50 fixed backdrop-blur-lg'>
-            <nav className="bg-transparent text-white px-6 py-4 shadow-md">
+        <div className='w-full top-0 bg-[#D9D9D93D] z-50 sticky '>
+            <div className='  w-full absolute backdrop-blur-lg'>
+            <nav className="bg-transparent text-white px-6 py-4   shadow-md">
                 <div className="container mx-auto flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex items-center">
@@ -107,6 +108,7 @@ const Header = () => {
     </div>
                 </div>
             </nav>
+            </div>
         </div>
     );
 };
