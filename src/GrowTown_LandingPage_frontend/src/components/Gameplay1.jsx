@@ -3,17 +3,18 @@ import React from 'react'
 const Gameplay = () => {
     return (
 
-        <div id='Gameplay' className="bg-[#50d2fe] min-h-screen relative  w-full ">
-            <div className='relative h-full w-full '>
-                {/* Background Image */}
-                <div className='absolute w-full'>
-                    <img src="images/bg01.png" alt="background" className="  w-full -mt-[1px]  object-cover" 
+        <div id='Gameplay' className="bg-[#50d2fe] h-screen relative  w-full ">
+                    {/* Background Image */}
+                    <div className='absolute w-full'>
+                    <img src="images/bg01.png" alt="background" className="  w-full -mt-[1px] h-screen object-cover" 
                      draggable='false'
                      loading="lazy"/>
                     <img src="images/bg02.png" alt="background" className=" w-full h-screen -mt-[1px]  object-cover" 
                      draggable='false'
                      loading="lazy"/>
                 </div>
+            <div className='relative h-full w-full container mx-auto max-w-[2000px]  '>
+        
 
                 {/* well and rocks*/}
                 <div className=' absolute right-0 -top-20 sm:-top-10' >
@@ -62,7 +63,7 @@ const Gameplay = () => {
                         <h1 className=" custom-ironman text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl' mb-2 lg:mb-8 text-center  text-[#FFF3C5] font-bold lg:mr-28">
                             GAMEPLAY
                         </h1>
-                        <p className=' text-sm md:text-base lg:text-lg xl:text-2xl text-center  font-semibold custom-fingerpaint-small text-[#4B2519] h-44 sm:h-48  md:h-auto overflow-y-scroll no-scrollbar'>
+                        <p className=' text-sm md:text-base lg:text-lg xl:text-2xl text-center  font-semibold custom-fingerpaint-small text-[#4B2519] h-44 sm:h-48 xl:h-auto overflow-y-scroll no-scrollbar'>
                             GrowTown Gameplay combines farming, trading, and adventure in a dynamic Web3 ecosystem. Players cultivate crops, raise animals, and trade assets through an NFT marketplace. Action-packed quests, seasonal events, and eco-friendly challenges add excitement and depth. With opportunities to collaborate or compete, players can shape their farms and strategies. GrowTown offers immersive, creative, and rewarding gameplay, seamlessly integrating blockchain technology into an engaging farming simulation experience.
                         </p>
                     </div>

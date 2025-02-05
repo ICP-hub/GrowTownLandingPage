@@ -3,7 +3,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className=" max-w-[2000px] mx-auto container">
+    <div className="">
       <LandingPage />
     </div>
   );
