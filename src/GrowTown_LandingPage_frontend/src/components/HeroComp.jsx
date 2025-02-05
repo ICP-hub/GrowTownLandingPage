@@ -102,7 +102,7 @@ const HeroComp = () => {
               <img src='images/appleIcon.svg' className='my-auto mx-1'
                draggable='false'
                loading="lazy" />
-                <div className='mx-1 ml-2'>
+                <div className='mx-1 ml-2 custom-fingerpaint'>
                   <h2 className=' text-sm '>Available on</h2>
                   <h1 className=' text-lg'>App Store</h1>
                 </div>
@@ -111,7 +111,7 @@ const HeroComp = () => {
                 <img src='images/andIcon.svg' className='my-auto mx-1' 
                  draggable='false'
                  loading="lazy"/>
-                <div className='mx-1 ml-2'>
+                <div className='mx-1 ml-2 custom-fingerpaint'>
                   <h2 className=' text-sm'>Available on</h2>
                   <h1 className=' text-lg'>Play Store</h1>
                 </div>

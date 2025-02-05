@@ -28,11 +28,11 @@ const Gameplay = () => {
               
                 <div className=" absolute w-full text-3xl top-[280px] sm:top-[380px]   md:text-4xl lg:text-5xl xl:text-6xl mb-2 lg:mb-8 text-center   text-[#FFF3C5] font-bold lg:mr-28">
                   
-                   <h1 className='w-[50%] relative z-10 mx-auto text-center custom-ironman text-lg sm:text-xl lg:text-3xl xl:text-4xl' > Grow Town: Cultivate, Protect, Thrive.  </h1>
+                   <h1 className='w-[50%] relative z-10 mx-auto text-center custom-ironman text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl' > Grow Town: Cultivate, Protect, Thrive.  </h1>
                       
                        {/* hen animation*/}
                     <div className='absolute flex left-0 md:left-[16%] top-10 '>
-                        <img src='images/henGif.gif' className='w-20 h-20 sm:w-28 sm:h-28 '
+                        <img src='images/henGif.gif' className='w-20 h-20 lg:w-28 lg:h-28 '
                                 style={{
                                     transform: 'scaleX(-1)',
                                   }}
@@ -44,9 +44,9 @@ const Gameplay = () => {
                     </div> 
                    {/* vegetable boxes*/}
                    <div className='absolute flex right-2 md:right-[16%] top-10'>
-                   <img src='images/vegtable boxes 4.png' className='w-14 sm:w-20 md:w-auto'  draggable='false'
+                   <img src='images/vegtable boxes 4.png' className='w-14 sm:w-20 lg:w-auto'  draggable='false'
               loading="lazy"/> 
-                    <img src='images/vegtable boxes 2.png' className='-ml-6 w-16 sm:w-24 md:w-auto'  draggable='false'
+                    <img src='images/vegtable boxes 2.png' className='-ml-6 w-16 sm:w-24 :w-auto'  draggable='false'
               loading="lazy"/>
                         
                    </div>
@@ -59,10 +59,10 @@ const Gameplay = () => {
                     <div className=' absolute ml-4 xl:ml-0 w-[55%] xl:w-[35%]  z-20 top-0  md:top-16 xl:top-24 xl:left-[50%] transform xl:-translate-x-1/2'
                     
                     >
-                        <h1 className=" custom-ironman text-lg sm:text-xl lg:text-3xl xl:text-4xl' mb-2 lg:mb-8 text-center  text-[#FFF3C5] font-bold lg:mr-28">
+                        <h1 className=" custom-ironman text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl' mb-2 lg:mb-8 text-center  text-[#FFF3C5] font-bold lg:mr-28">
                             GAMEPLAY
                         </h1>
-                        <p className=' text-xs sm:text-sm md:text-base lg:text-lg xl:text-2xl text-center  font-semibold custom-fingerpaint-small text-[#4B2519] h-44 md:h-auto overflow-y-scroll no-scrollbar'>
+                        <p className=' text-sm md:text-base lg:text-lg xl:text-2xl text-center  font-semibold custom-fingerpaint-small text-[#4B2519] h-44 sm:h-48  md:h-auto overflow-y-scroll no-scrollbar'>
                             GrowTown Gameplay combines farming, trading, and adventure in a dynamic Web3 ecosystem. Players cultivate crops, raise animals, and trade assets through an NFT marketplace. Action-packed quests, seasonal events, and eco-friendly challenges add excitement and depth. With opportunities to collaborate or compete, players can shape their farms and strategies. GrowTown offers immersive, creative, and rewarding gameplay, seamlessly integrating blockchain technology into an engaging farming simulation experience.
                         </p>
                     </div>

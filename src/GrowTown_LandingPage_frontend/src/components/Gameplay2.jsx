@@ -71,12 +71,9 @@ const Gameplay2 = () => {
 
                 </div >
 
-
-
-
             </div>
 
-            <div className=' relative h-screen  w-full '>
+            <div className=' relative h-screen -mt-[1px] w-full '>
                 <img src="images/bg04.png" alt="background" className=" w-full  h-full absolute    z-0 object-cover" />
                 {/* tree */}
                 <div className=' mt-28 sm:mt-20 md:mt-8 lg:-mt-28 xl:-mt-52  absolute  w-40 lg:h-auto lg:w-auto '>
@@ -93,7 +90,7 @@ const Gameplay2 = () => {
                 <img src='images/leaf01.png ' className='  z-10 w-28 top-[68%] left-[30%] relative ' />
 
 
-                <div id='Subscribe' className=' z-10 -bottom-32 lg:-top-32  relative flex justify-center text-[#FFF3C5]'>
+                <div id='Subscribe' className=' z-10 -bottom-36 sm:-bottom-72 lg:-top-32  relative flex justify-center text-[#FFF3C5]'>
                     <div className=' w-[80%] md:w-[50%] lg:w-[40%]'>
                         <h1 className='  sm:text-lg md:text-xl lg:text-2xl xl:text-3xl px-10 text-bold text-center custom-ironman '> Subscribe to Receive our newsletter to follow the news</h1>
 
