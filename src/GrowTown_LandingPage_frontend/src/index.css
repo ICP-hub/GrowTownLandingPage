@@ -20,6 +20,7 @@ body {
   overflow-x: hidden;
 }
 
+
 @font-face {
   font-family: "Iron Man";
   src: url('https://fonts.cdnfonts.com/s/28969/IronMan.woff') format('woff'),
@@ -78,4 +79,9 @@ body {
   .custom-line-clamp {
     -webkit-line-clamp: 10;
   }
+}
+
+
+.xs{
+  width: 500px;
 }

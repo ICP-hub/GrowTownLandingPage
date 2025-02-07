@@ -12,6 +12,9 @@ export default {
         FingerPaint:['Finger Paint','sans-serif']
       },
       scrollBehavior: ['smooth'],
+      screens: {
+        xs: "480px", // Custom breakpoint for extra small screens
+      },
     },
   },
   plugins: [],

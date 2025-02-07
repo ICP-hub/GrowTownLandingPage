@@ -91,13 +91,13 @@ const HeroComp = () => {
           loading="lazy"/>
 
           <div data-aos='fade-down' className=' mt-[40%]  sm:mt-0' data-aos-delay='1000'>
-            <div className=' mx-auto w-[60%]  sm:w-auto  mb-10 -mt-2 '>
-            <h1 className='  text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl mr-6 text-center text-[#4B2519] custom-ironman font-bold'
+            <div className=' mx-auto w-[50%]  sm:w-auto  mb-10 -mt-2 '>
+            <h1 className='  text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl  text-center text-[#4B2519] custom-ironman font-bold'
            >COMING SOON!
            </h1>
             </div>
            
-            <div className='flex mx-auto w-[50%] sm:w-auto flex-col sm:flex-row whitespace-nowrap  justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
+            <div className='flex mx-auto w-[50%] xs:w-[40%]  sm:w-auto flex-col sm:flex-row whitespace-nowrap  justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
               <div className=' sm:ml-0 p-1 sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
               <img src='images/appleIcon.svg' className='my-auto mx-1'
                draggable='false'
