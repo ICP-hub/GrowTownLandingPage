@@ -97,14 +97,14 @@ const HeroComp = () => {
            </h1>
             </div>
            
-            <div className='flex mx-auto w-[50%] xs:w-[40%]  sm:w-auto flex-col sm:flex-row whitespace-nowrap  justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
-              <div className=' sm:ml-0 p-1 sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg'>
+            <div className='flex mx-auto w-[45%] xs:w-[40%]  sm:w-auto flex-col sm:flex-row whitespace-nowrap  justify-center sm:gap-[5%] gap-5 mt-[15%] sm:mt-0 text-white'>
+              <div className=' sm:ml-0 p-1 sm:w-auto px-2 bg-black flex justify-center items-center rounded-lg '>
               <img src='images/appleIcon.svg' className='my-auto mx-1'
                draggable='false'
                loading="lazy" />
                 <div className='mx-1 ml-2  custom-fingerpaint '>
-                  <h2 className=' text-sm '>Available on</h2>
-                  <h1 className=' text-lg'>App Store</h1>
+                  <h2 className=' text-xs sm:text-sm '>Available on</h2>
+                  <h1 className=' sm:text-lg'>App Store</h1>
                 </div>
               </div>
               <div className='  sm:ml-0 bg-black  sm:w-auto flex  items-center p-1 px-2 justify-center rounded-lg'>
@@ -112,8 +112,8 @@ const HeroComp = () => {
                  draggable='false'
                  loading="lazy"/>
                 <div className='mx-1 ml-2 custom-fingerpaint'>
-                  <h2 className=' text-sm'>Available on</h2>
-                  <h1 className=' text-lg'>Play Store</h1>
+                  <h2 className=' text-xs sm:text-sm '>Available on</h2>
+                  <h1 className=' sm:text-lg'>Play Store</h1>
                 </div>
               </div>
             </div>
