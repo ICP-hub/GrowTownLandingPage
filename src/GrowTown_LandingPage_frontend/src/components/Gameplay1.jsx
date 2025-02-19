@@ -13,7 +13,7 @@ const Gameplay = () => {
                      draggable='false'
                      loading="lazy"/>
                 </div>
-            <div className='relative h-full w-full container mx-auto max-w-[2000px]  '>
+            <div className='relative h-full w-full  '>
         
 
                 {/* well and rocks*/}

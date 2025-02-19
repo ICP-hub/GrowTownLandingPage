@@ -9,7 +9,7 @@ const Gameplay2 = () => {
                 <img src="images/Generative Fill 2.png" alt="background" className="  w-full   object-cover"  draggable='false'
               loading="lazy"/>
 
-                <div className='relative max-w-[2000px]  h-full  container mx-auto'>
+                <div className='relative h-full'>
 
                     {/* Farmhouse */}
                     <div  className='absolute bottom-20  sm:bottom-48 lg:bottom-64 xl:bottom-[500px]  z-10 xl:h-auto   '
@@ -74,7 +74,7 @@ const Gameplay2 = () => {
 
             <div className='  h-screen -mt-[1px] w-full '>
                 <img src="images/bg04.png" alt="background" className=" w-full  h-full absolute    z-0 object-cover" />
-                <div className='container mx-auto max-w-[2000px] h-full relative '>
+                <div className='h-full relative '>
                 {/* tree */}
                 <div className=' mt-28 sm:mt-20 md:mt-8 lg:-mt-28 xl:-mt-52  absolute  w-40 lg:h-auto lg:w-auto '>
                     <img src='images/tree.png' className=' ' />

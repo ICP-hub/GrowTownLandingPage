@@ -9,7 +9,7 @@ const Characters = () => {
               loading="lazy"/>
 
       {/* Content Wrapper */}
-     <div className=' container mx-auto max-w-[2000px] '>
+     <div className=' '>
       <div
         className="absolute z-20 w-[60%] flex flex-col items-center "
         style={{

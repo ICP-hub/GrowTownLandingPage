@@ -8,7 +8,7 @@ const Footer = () => {
     ];
     return (
         <div className='w-full relative -mt-20 sm:-mt-24 bg-[#D9D9D93D] z-50 overflow-hidden backdrop-blur-lg'>
-            <div className="bg-transparent text-white px-6 h-full py-4 shadow-md  container mx-auto max-w-[2000px]  ">
+            <div className="bg-transparent text-white px-6 h-full py-4 shadow-md">
 
 
                 <img src="images/GrowTownLogo .png" alt="logo" className=" w-16 sm:w-24 xl:w-28 absolute left-[50%] transform -translate-x-1/2 my-auto" 

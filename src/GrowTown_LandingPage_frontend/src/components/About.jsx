@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='bg-[#00A6C0] h-[650px] xl:h-screen w-full '>
-    <div id='About' className=' relative flex justify-center items-center h-full w-full -mt-1  container mx-auto max-w-[2000px] '>
+    <div id='About' className=' relative flex justify-center items-center h-full w-full -mt-1 '>
       
       {/* left cloud*/}
       <div className='absolute z-10 -left-0 top-0 overflow-hidden'>
